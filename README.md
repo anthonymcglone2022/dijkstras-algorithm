@@ -5,11 +5,11 @@ Please read the PDF first. When done, follow the comments in the pseudocode belo
 ```java
  1  function dijkstra_algorithm(graph, source): // Pass in the 'graph' (with vertices and edges) and choose the 'source' node
  2      
- 3      for each vertex v in graph.vertices:
+ 3      for each vertex v in graph.vertices: // For each node, set the temporary distance to infinity
  4          dist[v] ← INFINITY
  5          prev[v] ← UNDEFINED
- 6          add v to Q
- 7      dist[source] ← 0
+ 6          add v to Q // Add each node to the unvisited set Q
+ 7      dist[source] ← 0 // Set the source node's temporay distance to 0
  8      
  9      while Q is not empty:
 10          u ← vertex in Q with min dist[u]

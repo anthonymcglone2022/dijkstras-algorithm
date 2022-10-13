@@ -1,6 +1,6 @@
 # dijkstras-algorithm
 
-Please read the PDF first. When done, follow the comments in the pseudocode below:
+Please read the PDF first. When done, follow the comments in the pseudocode below.
 
 ```java
  1  function dijkstra_algorithm(graph, source):

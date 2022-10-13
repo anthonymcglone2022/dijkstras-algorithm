@@ -3,7 +3,7 @@
 Please read the PDF first. When done, follow the comments in the pseudocode below.
 
 ```java
- 1  function dijkstra_algorithm(graph, source):
+ 1  function dijkstra_algorithm(graph, source): // Pass in the 'graph' (with vertices and edges) and choose the 'source' node
  2      
  3      for each vertex v in graph.vertices:
  4          dist[v] ← INFINITY

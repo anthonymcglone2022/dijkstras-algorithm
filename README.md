@@ -3,7 +3,7 @@
 Please read the PDF first. When done, follow the comments in the pseudocode below:
 
 ```java
- 1  method dijkstra_algorithm(graph, source):
+ 1  function dijkstra_algorithm(graph, source):
  2      
  3      for each vertex v in graph.vertices:
  4          dist[v] ← INFINITY

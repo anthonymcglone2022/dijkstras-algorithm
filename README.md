@@ -1,6 +1,8 @@
 # dijkstras-algorithm
 
-Please read the PDF first. When done, follow the comments in the pseudocode below.
+[Please follow the visual guide first.](https://github.com/anthonymcglone2022/dijkstras-algorithm/blob/master/Dijkstra's%20algorithm.pdf)
+
+When done, follow the comments in the pseudocode below.
 
 ```java
  1  function dijkstra_algorithm(graph, source): // Pass in the graph (with vertices and edges) and choose the source node.

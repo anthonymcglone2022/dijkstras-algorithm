@@ -23,5 +23,5 @@ When done, follow the comments in the pseudocode below.
 16                  dist[v] ← alt // If the calculated temporary distance is lower, update the neighbour.
 17                  prev[v] ← u
 18
-19      return dist[], prev[] // Return the dist array, which has the shortest paths
+19      return dist[], prev[] // Return the dist array, which has the shortest paths.
 ```

@@ -13,7 +13,7 @@ When done, follow the comments in the pseudocode below.
  6          add v to Q // Add each node to the unvisited set Q.
  7      dist[source] ← 0 // Set the source node's temporary distance to 0.
  8      
- 9      while Q is not empty: // Continue the algorithm, while there are unvisited nodes.
+ 9      while Q is not empty: // Continue the algorithm while there are unvisited nodes.
 10          u ← vertex in Q with min dist[u] // Set the current node to the one with the minimum temporary distance in Q.
 11          remove u from Q // Mark the current node as visited.
 12          
